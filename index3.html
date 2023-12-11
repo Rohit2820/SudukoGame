@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            margin-top: 20vh;
+            margin-left: 40vw;
+            width: 180px;
+            height: 231px;
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .tiles{
+            width: 15px;
+            height: 20px;
+            border: 2px solid black;
+            text-align: center;
+            margin: 1px;
+        }
+        .inputField
+        {
+            background-color: black;
+        }
+        .inputSelected
+        {
+            background-color: green;
+            color: black;
+        }
+        #insertNumber
+        {
+            display: flex;
+            border: 2px solid black;
+            flex-wrap: wrap;
+            justify-content:center;
+            width: 5.5vw;
+            height: 13.5vh;
+            margin-top: 40px;
+            margin-left: 250px;
+            position: relative;
+            bottom: 40vh;
+            left: 40vw;
+
+            
+
+        }
+        .num
+        {
+            border: 1px solid black;
+            width: 18px;
+            height: 20px;
+            text-align: center;
+            cursor: pointer;
+            margin: 2px;
+            
+            
+        }
+        .correct
+        {
+            background-color: blue;
+            color: white;
+        }
+        .wrong
+        {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="mistake">
+        <h3>Errors : <span id="mistakecount"></span> </h3>
+    </div>
+    <div id="main">
+    </div>
+    <div id="insertNumber">
+
+    </div>
+    <script src="index3.js"></script>
+</body>
+</html>
