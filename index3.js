@@ -4,6 +4,7 @@ var errorCount=0;
 let mistakecount = document.getElementById('mistakecount');
 let insert_number = document.getElementById('insertNumber')
 let main = document.getElementById('main')
+let reset = document.getElementById("reset")
 // window.onload = function(){
 //     creatingTiles()
 //     insertingRandomValues()
@@ -15,7 +16,12 @@ window.onload = creatingTiles();
 window.onload = insertingRandomValues();
 window.onload = removeGridDuplicates();
 window.onload = removeingRowColDup();
-window.onload = numbers()
+window.onload = numbers();
+reset.addEventListener('click',()=>{
+    window.location.reload();
+
+
+})
 
 
 
